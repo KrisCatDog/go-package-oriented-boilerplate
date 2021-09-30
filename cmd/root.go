@@ -16,7 +16,7 @@ var rootCmd = &cobra.Command{
 			}
 		})
 
-		log.Fatalln(http.ListenAndServe("1234", nil))
+		log.Fatalln(http.ListenAndServe(":1234", nil))
 	},
 }
 
